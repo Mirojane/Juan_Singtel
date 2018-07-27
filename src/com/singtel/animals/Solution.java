@@ -6,9 +6,8 @@ import com.singtel.fish.Clownfish;
 import com.singtel.fish.Dolphins;
 import com.singtel.fish.Fish;
 import com.singtel.fish.Shark;
-
-import metamorphosisInsect.Butterfly;
-import metamorphosisInsect.Frog;
+import com.singtel.metamorphosisInsect.Butterfly;
+import com.singtel.metamorphosisInsect.Frog;
 
 /**
  * 

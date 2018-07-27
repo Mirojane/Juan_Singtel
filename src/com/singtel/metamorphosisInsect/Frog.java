@@ -1,4 +1,4 @@
-package metamorphosisInsect;
+package com.singtel.metamorphosisInsect;
 
 import com.singtel.animals.Animal;
 
