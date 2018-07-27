@@ -22,7 +22,7 @@ because I put all test file in the other source folder and other package for eas
 9- Question D, see code
 
 10- Question E, the solution see Solution.java under com.singtel.animals with objects of Animal:
-	duck,chicken,rooster,parrort,fish,shark,clownfish,dolphins,frog,butterfly
+	duck, chicken, rooster, parrort, fish, shark, clownfish, dolphins, frog, butterfly
 
 9- Question Bonus-1, Chinese - Wowoooooo
  
