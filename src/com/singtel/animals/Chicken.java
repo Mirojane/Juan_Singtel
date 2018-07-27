@@ -5,17 +5,12 @@ public class Chicken extends Bird{
 	
 
 	@Override
-	public void fly() {
-		// TODO Auto-generated method stub
-		super.fly();
-	}
-
-	@Override
 	public void walk() {
 		// TODO Auto-generated method stub
 		super.walk();
 	}
 
+		//for question: A-2-c
 	@Override
 	public void sing() {
 		super.sing();

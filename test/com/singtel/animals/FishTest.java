@@ -4,13 +4,15 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class AnimalTest {
+import com.singtel.fish.Shark;
+
+public class FishTest {
 
 	@Test
 	public void test() {
-		//fail("Not yet implemented");
-		int two = 2;
-		assertEquals(2,two);
+		Shark stest = new Shark();
+		stest.attack(true);
+		
 	}
 
 }

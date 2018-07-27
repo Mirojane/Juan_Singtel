@@ -14,13 +14,17 @@ public class Bird extends Animal{
 		super.walk();
 		System.out.println("I am bird, I am walking");
 	}
-
+	@Override
 	public void fly() {
-		System.out.println("I am flying");
-		}
-	
-	// Implement sing to Bird, for question A-1
-	public void sing() {				
-		System.out.println("I am singing");
-		}
+		// TODO Auto-generated method stub
+		super.fly();
+	}
+	@Override
+	public void sing() {
+		// TODO Auto-generated method stub
+		super.sing();
+	}
+
+
+
 }

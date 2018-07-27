@@ -1,13 +1,8 @@
 package com.singtel.animals;
 
 // For question A-3
-public class Rooster extends Chicken {
+public class Rooster extends Bird {
 
-	@Override
-	public void fly() {
-		// TODO Auto-generated method stub
-		super.fly();
-	}
 
 	@Override
 	public void walk() {
