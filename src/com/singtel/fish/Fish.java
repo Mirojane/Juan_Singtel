@@ -16,9 +16,7 @@ public class Fish extends Animal{
 	}
 
 
-	@Override
 	public void swim() {
-		// TODO Auto-generated method stub
 		
 	}
 	
