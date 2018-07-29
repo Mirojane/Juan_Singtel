@@ -1,8 +1,9 @@
 package com.singtel.metamorphosisInsect;
 
 import com.singtel.animals.Animal;
+import com.singtel.bird.Bird;
 
-public class Butterfly extends Animal{
+public class Butterfly extends Bird{
 
 	@Override
 	public void walk() {

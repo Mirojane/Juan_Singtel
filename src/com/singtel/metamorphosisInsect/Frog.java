@@ -1,8 +1,12 @@
 package com.singtel.metamorphosisInsect;
 
 import com.singtel.animals.Animal;
+import com.singtel.animals.WalkAnimal;
 
-public class Frog extends Animal {
+public class Frog extends WalkAnimal  {
+
+	
+	
 
 	@Override
 	public void walk() {
@@ -11,9 +15,13 @@ public class Frog extends Animal {
 	}
 
 	@Override
-	public void swim() {
+	public void sing() {
 		// TODO Auto-generated method stub
-		super.swim();
+		super.sing();
+	}
+
+	private void swim() {
+		System.out.println("Frog Swimming");
 	}
 	
 	
