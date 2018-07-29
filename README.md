@@ -13,16 +13,17 @@ because I put all test file in the other source folder and other package for eas
 
 6- Question B-2-b, see code of Fish, an attack(boolean i) method is added, unit test is created.
 
-6- Question B-3-a, Dolphins extends from Animal not Fish. Add Swim() to Animal class.
+6- Question B-3-a, Dolphins extends Fish. Add Swim() to Fish class.
 
 7- Question B-3-b, make parent class more commonly and simplest to avoid duplicating code or introducing unneeded overhead
 
-8- Question C, make parent class Animal having three methods, walk(), fly(),swim(). Butterfly and Caterpiller class inherit from Animal class
+8- Question C, Butterfly and Caterpiller class inherit from Bird class
 
 9- Question D, see code
 
 10- Question E, the solution see Solution.java under com.singtel.animals with objects of Animal:
 	duck, chicken, rooster, parrort, fish, shark, clownfish, dolphins, frog, butterfly
+	For creating Animal array for bird , fish, mammal with distinct behaviors, The Animal class is an class without any methods.
 
 11- Question Bonus-1, Chinese - Wowoooooo
  
