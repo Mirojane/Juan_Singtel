@@ -1,10 +1,6 @@
 package com.singtel.animals;
 
-import com.singtel.bird.Bird;
-
-// For question A-3
-public class Rooster extends Bird {
-
+public class Dog  extends WalkAnimal{
 
 	@Override
 	public void walk() {
@@ -14,8 +10,8 @@ public class Rooster extends Bird {
 
 	@Override
 	public void sing() {
-			super.sing();
-			System.out.println("I am rooster, Cock-a-doodle-doo");
+		// TODO Auto-generated method stub
+		super.sing();
 	}
 	
 	

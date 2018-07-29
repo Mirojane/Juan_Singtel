@@ -1,6 +1,8 @@
 package com.singtel.animals;
 
-public class Chicken extends Bird{
+import com.singtel.bird.Bird;
+
+public class Chicken extends WalkAnimal{
 	
 	
 

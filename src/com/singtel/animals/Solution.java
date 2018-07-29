@@ -2,6 +2,9 @@ package com.singtel.animals;
 
 import java.lang.reflect.Method;
 
+import com.singtel.bird.Bird;
+import com.singtel.bird.Duck;
+import com.singtel.bird.Parrot;
 import com.singtel.fish.Clownfish;
 import com.singtel.fish.Dolphins;
 import com.singtel.fish.Fish;
@@ -47,16 +50,20 @@ public class Solution {
 	    
 	    for (int i=0; i<animals.length; i++){
 	    	
-	    	if(animals[i] instanceof Bird &&!(animals[i] instanceof  Parrot)){
+	    	if(animals[i] instanceof Bird ){
 	    	    walkint++;
 	    	    singint++;
+	    	    flyint++;
 	    	}else if (animals[i] instanceof Fish ){
 	    		swimint++;
 	    	}else if (animals[i] instanceof Frog ){
 	    		swimint++;
 	    		walkint++;
-	    	}else if (animals[i] instanceof  Butterfly||animals[i] instanceof  Parrot){
+	    	}else if (animals[i] instanceof  Butterfly){
 	    		flyint++;
+	    	}else if (animals[i] instanceof  WalkAnimal){
+	    		walkint++;
+	    		singint++;
 	    	}
 	    }
 	  	
